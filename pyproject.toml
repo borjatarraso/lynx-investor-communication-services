@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "lynx-investor-communication-services"
-version = "5.0"
+version = "5.1"
 description     = "Lynx Communication Services — Fundamental analysis specialized for telecom, wireless, cable, streaming, internet content, social media, advertising & gaming companies"
 readme          = "README.md"
 requires-python = ">=3.10"
@@ -19,7 +19,7 @@ dependencies    = [
     "feedparser>=6.0",
     "pandas>=2.1",
     "numpy>=1.26",
-    "lynx-investor-core>=5.0",
+    "lynx-investor-core>=5.1",
 ]
 
 [project.optional-dependencies]
