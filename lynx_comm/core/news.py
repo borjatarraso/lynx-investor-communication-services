@@ -45,7 +45,7 @@ def fetch_news_yfinance(ticker: str) -> list[NewsArticle]:
 
 
 def fetch_news_rss(company_name: str, ticker: str) -> list[NewsArticle]:
-    query = f"{company_name} {ticker} tech stock"
+    query = f"{company_name} {ticker} communication services stock"
     feed_url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en&gl=US&ceid=US:en"
     articles: list[NewsArticle] = []
     try:

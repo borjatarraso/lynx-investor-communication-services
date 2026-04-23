@@ -94,8 +94,8 @@ _add_industry("Advertising Agencies", "Communication Services",
 _add_industry("Publishing", "Communication Services",
     "Newspapers, magazines, news media in digital transition (NYT, News Corp, Gannett, dpa). Digital subscription is the survival path — print revenue continues a structural decline. Best operators (NYT) demonstrate that high-quality journalism can be a recurring-revenue, operating-leverage business.",
     ["Digital subscriber net adds & churn", "Digital ARPU", "Subscription revenue mix (target >50%)", "Operating margin (improving from negative to 15%+)", "FCF margin"],
-    ["Print decline outpacing digital growth", "Aggregator (Apple News, Google) revenue-share squeeze", "AI-generated content commoditization", "Ad spend continued shift to platforms", "Trust / political polarization affecting brand"],
-    ["Digital sub net adds & ARPU", "Print decline cadence", "AI training data licensing deals", "Bundling strategies (NYT cooking, athletic, games)"],
+    ["Print decline outpacing digital growth", "Aggregator (Apple News, Google) revenue-share squeeze", "Algorithmic content commoditization", "Ad spend continued shift to platforms", "Trust / political polarization affecting brand"],
+    ["Digital sub net adds & ARPU", "Print decline cadence", "Data licensing deals with downstream platforms", "Bundling strategies (NYT cooking, athletic, games)"],
     "P/E 18-30x for digital winners (NYT); 5-10x for print-heavy declining names; EV/EBITDA 8-14x.")
 
 

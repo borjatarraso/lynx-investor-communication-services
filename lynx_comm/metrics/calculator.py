@@ -458,7 +458,7 @@ def calc_share_structure(
             growth.dilution_ratio = ratio
             growth.fully_diluted_shares = ss.fully_diluted_shares
 
-    # Tech companies tend to run larger float counts; thresholds differ from mining
+    # Thresholds differ across other Suite sectors; tuned per-sector here.
     if ss.fully_diluted_shares:
         fd = ss.fully_diluted_shares
         if fd < 100_000_000:
