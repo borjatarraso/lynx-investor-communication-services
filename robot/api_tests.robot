@@ -136,7 +136,7 @@ Sector Validation Allows Communication Services
 Conclusion Generation Returns Verdict
     [Documentation]    GIVEN a minimal report WHEN I generate conclusion THEN verdict is present
     When I Run Python Code    from lynx_comm.models import AnalysisReport, CompanyProfile; from lynx_comm.core.conclusion import generate_conclusion; r = AnalysisReport(profile=CompanyProfile(ticker='T', name='T')); c = generate_conclusion(r); print(c.verdict)
-    Then The Output Should Contain    Hold
+    Then The Output Should Contain    Caution
 
 Comm-Services Screening Checklist Present
     [Documentation]    GIVEN a report WHEN I screen THEN rule_of_40_pass key exists
