@@ -1,6 +1,6 @@
 """Lynx Communication Services — Fundamental analysis for telecom, wireless, cable, streaming, internet, social media, advertising & gaming companies."""
 
-__version__ = "4.0"
+__version__ = "4.0.1"
 __author__ = "Borja Tarraso"
 __author_email__ = "borja.tarraso@member.fsf.org"
 __year__ = "2026"

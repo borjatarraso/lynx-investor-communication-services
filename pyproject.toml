@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "lynx-investor-communication-services"
-version = "4.0"
+version = "4.0.1"
 description     = "Lynx Communication Services — Fundamental analysis specialized for telecom, wireless, cable, streaming, internet content, social media, advertising & gaming companies"
 readme          = "README.md"
 requires-python = ">=3.10"
